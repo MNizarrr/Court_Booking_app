@@ -53,6 +53,7 @@ class OrderSummary extends StatelessWidget {
                       Row(
                         children: [
                           Icon(Icons.date_range_outlined),
+                          SizedBox(width: 4),
                           Text(
                             "Date",
                             style: GoogleFonts.poppins(
@@ -76,6 +77,8 @@ class OrderSummary extends StatelessWidget {
                       Row(
                         children: [
                           Icon(Icons.hourglass_bottom_outlined),
+                          SizedBox(width: 4),
+
                           Text(
                             "Duration",
                             style: GoogleFonts.poppins(
@@ -99,6 +102,8 @@ class OrderSummary extends StatelessWidget {
                       Row(
                         children: [
                           Icon(Icons.sell_outlined),
+                          SizedBox(width: 4),
+                          
                           Text(
                             "Price per Hour",
                             style: GoogleFonts.poppins(
